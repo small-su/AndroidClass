@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 添加隐藏菜单 -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/black"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:menu="@menu/menu" />
+
+
+    <TextView
+        android:id="@+id/search_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="搜索图片"
+        android:textSize="28sp"
+        android:layout_gravity="center_horizontal"
+        android:drawablePadding="8dp"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:paddingTop="16dp">
+
+        <!-- 情侣 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="center"
+            android:background="#D3D3D3"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="情侣"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+
+        <!-- 春天 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="center"
+            android:background="#D3D3D3"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="春天"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+
+        <!-- 动漫 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="center"
+            android:background="#D3D3D3"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="动漫"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+
+        <!-- 游戏 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="center"
+            android:background="#D3D3D3"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="游戏"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+
+        <!-- 旅游 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="center"
+            android:background="#D3D3D3"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="旅游"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+
+        <!-- 明星 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="center"
+            android:background="#D3D3D3"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="明星"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+    </GridLayout>
+
+    <!-- 底部导航栏 -->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#FFFFFF"
+            android:padding="8dp">
+
+            <Button
+                android:id="@+id/collection_button"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:text="收藏"
+                android:onClick="onCollectionButtonClick"/>
+
+            <Button
+                android:id="@+id/discover_button"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:text="发现"
+                android:onClick="onDiscoverButtonClick"/>
+
+            <Button
+                android:id="@+id/profile_button"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:text="个人中心"
+                android:onClick="onProfileButtonClick"/>
+        </LinearLayout>
+    </LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <!-- ... existing code ... -->
+    <item type="id" name="iv_avatar" />
+</resources>

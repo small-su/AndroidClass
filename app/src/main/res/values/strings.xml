@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Class</string>
+    <string name="academic_prompt">选择专业</string>
+    <string name="zhu">注册</string>
+    <string name="姓名">姓名</string>
+    <string name="立即注册">立即注册</string>
+    <string name="专业">专业：</string>
+    <string name="爱好">爱好：</string>
+    <string name="音乐">音乐</string>
+    <string name="跑步">跑步</string>
+    <string name="关于">关于</string>
+    <string name="退出">推出</string>
+    <string name="avatar_description">用户头像</string>
+    <string-array name="academic">
+        <item>物联网工程</item>
+        <item>大数据科学与技术</item>
+        <item>计算机科学与技术</item>
+        <item>电子商务</item>
+
+    </string-array>
+</resources>

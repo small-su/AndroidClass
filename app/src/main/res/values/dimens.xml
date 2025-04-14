@@ -1,0 +1,4 @@
+<resources>
+    <!-- ... existing code ... -->
+    <dimen name="avatar_size">100dp</dimen>
+</resources>

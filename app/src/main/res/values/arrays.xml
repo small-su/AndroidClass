@@ -1,0 +1,11 @@
+<resources>
+    <!-- ... existing code ... -->
+    <string-array name="avatar_options">
+        <item>@string/take_photo</item>
+        <item>@string/choose_from_gallery</item>
+        <item>@string/cancel</item>
+    </string-array>
+    <string name="take_photo">照片\n</string>
+    <string name="choose_from_gallery">choose</string>
+    <string name="cancel">取消</string>
+</resources>

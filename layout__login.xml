@@ -1,0 +1,15 @@
+<!-- ... existing code ... -->
+<Button
+    android:id="@+id/button"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:background="#3C8DC4"
+    android:text="去注册"
+    android:textColor="#ffffff"
+    android:textSize="20sp"
+    android:enabled="true"  <!-- 确保按钮可点击 -->
+    android:layout_alignTop="@+id/btn_login"
+    android:layout_alignRight="@+id/ll_password"
+    android:layout_alignEnd="@+id/ll_password"
+/>
+<!-- ... existing code ... -->

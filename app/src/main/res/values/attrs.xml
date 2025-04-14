@@ -1,0 +1,7 @@
+<resources>
+    <!-- ... existing code ... -->
+    <declare-styleable name="AvatarImage">
+        <attr name="avatarSize" format="dimension" />
+        <attr name="avatarBackground" format="color" />
+    </declare-styleable>
+</resources>
